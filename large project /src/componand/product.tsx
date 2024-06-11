@@ -21,7 +21,7 @@ const ProductCard = ({product}: IProps) => {
                 alt={"productName"}
                 className="rounded-md"/>
 
-        <h3 className="text-lg font-bold font-sams">{product.tittle}</h3>
+        <h3 className="text-lg font-bold font-sams">{product.title}</h3>
 
         <p>{txtSlicer(description)}</p>
 

@@ -1,6 +1,6 @@
 export interface IProdact {
     id?: string
-    tittle: string
+    title: string
     description: string
     imageURL: string
     price: string
@@ -13,7 +13,7 @@ export interface IProdact {
 
 export interface IFormInput {
     id: string
-    name: string
+    name: "title" | 'description' | "imageURL"  | "price" ;
     lable: string
     type: string
 }

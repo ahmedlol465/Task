@@ -1,5 +1,4 @@
 import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react'
-import Button from './button'
 import { ReactNode } from 'react';
 
 interface IProps {
